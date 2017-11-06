@@ -1,0 +1,37 @@
+// Place all the styles related to the question controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url("components/button.css");
+
+body {
+  margin: 0;
+  font-family: 'Monsterrat';
+}
+h1, h2, h3 {
+  font-family: 'Monsterrat';
+}
+
+.btn-treehouse:hover {
+    opacity: 1;
+    background: #3ac162;
+    text-decoration: none;
+    color: white;
+}
+.btn-treehouse {
+    color: white;
+    padding: 15px 25px;
+    border-radius: 4px;
+    font-weight: bold;
+    background: #6AD58B;
+    transition: background 0.3s ease;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.padded-multi-line {
+  display: inline;
+  background: orange;
+  box-shadow: 10px 0 0 orange, -10px 0 0 orange;
+}
